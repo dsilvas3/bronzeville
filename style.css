@@ -1,0 +1,30 @@
+
+body{
+    background-color: bisque;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+h1{
+    color:slategray;
+}
+
+nav{
+    display: block;
+}
+.navigation{
+    display: block;
+    background-color: rgb(202, 207, 212);
+    margin: 0%;
+    padding: 2%;
+    font-size: 125%;
+}
+
+.nav1{
+    padding: 7%;
+    font-size: 130%;
+    color: slategray;
+    text-decoration: none;
+
+}
