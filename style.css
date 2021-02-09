@@ -29,6 +29,54 @@ nav{
 
 }
 
+.title-1{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding:2%;
+}
+
+.mission{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 3%;
+
+}
+
+
+.design{
+    width: 25%;
+    height: 200px;
+    float: left;
+
+}
+
+.community{
+    margin-left: 15%;
+  height: 200px;
+  float: right;
+
+}
+
+.container {
+    width: 80%;
+    height: 200px;
+
+    margin: auto;
+    padding: 0px;
+  }
+
+
+.question{
+  
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 3%;
+
+}
+
 
 /* Set the size of the div element that contains the map */
 #map {
