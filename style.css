@@ -43,28 +43,66 @@ nav{
     padding: 3%;
 
 }
+.img0, .img1{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid black;
+    float: left;
 
-
+}
 .design{
-    width: 25%;
+    /* width: 25%;
     height: 200px;
+    float: left; */
+
+
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 1px;
+
     float: left;
 
 }
 
 .community{
-    margin-left: 15%;
+    /* margin-left: 15%;
   height: 200px;
-  float: right;
+  float: right; */
+
+  width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 1px;
+
+    float: left;
 
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
 .container {
-    width: 80%;
+    /* width: 80%;
     height: 200px;
 
     margin: auto;
-    padding: 0px;
+    padding: 0px; */
+    background-color: #f1f1f0;
+    margin:auto;
+    border-radius:1px;
+    padding:1px;
+    overflow: hidden;
   }
 
 
@@ -75,6 +113,11 @@ nav{
     text-align: center;
     padding: 3%;
 
+}
+
+.div{
+    background-color: gray;
+    color: gray;
 }
 
 
