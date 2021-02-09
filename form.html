@@ -25,12 +25,38 @@
         </div>
     </nav>
 
-    <h6>What are we looking for: </h6>
-      <p>We are creating a walking tour for the Bronzeville neighborhood. We want to hear from
-        community members about what stops and points of interest should be included. In other
-        words, if you were giving someone a tour of the neighborhood where would you take
-        them and what stories would you tell? They can be about the past, present, and future.
-        Feel free to submit more than one story.</p>
+    <div class="row">
+      <div class="col-7">
+        <h5>What we are looking for:</h5>
+        <p>We are creating a walking tour for the Bronzeville neighborhood. We want to hear from
+          community members about what stops and points of interest should be included. In other
+          words, if you were giving someone a tour of the neighborhood where would you take
+          them and what stories would you tell? They can be about the past, present, and future.
+          Feel free to submit more than one story.</p>
+      </div>
+      <div class="col-5">
+        <h5>Your Bronzeville Story: </h5>
+            <p>Space for legal issues: story will be reviewed and edited. May not be selected. 
+              If selected will become property of App service.No violations of copyright will 
+              be accepted. Content will be made public. You can choose to have your name shown 
+              or hidden.</p>
+      </div>
+    </div>
+
+
+    <!--
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <h5>Your Bronzeville Story: </h5>
+            <p>Space for legal issues: story will be reviewed and edited. May not be selected. If selected will become property of App service.
+            No violations of copyright will be accepted. Content will be made public. You can choose to have your name shown or hidden…</p>
+    
+        </div>
+    </div>
+    -->
+
+    <div class="container">
     <form>
       <div class="form-group row">
         <label for="inputName" class="col-sm-2 col-form-label">Name</label>
@@ -45,37 +71,78 @@
           <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
         </div>
       </div>
-      <div class="form-group row">
-        <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
-        <div class="col-10">
-          <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
-        </div>
-      </div>
+
       <fieldset class="form-group">
         <div class="row">
-          <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+          <legend class="col-form-label col-sm-12 pt-0">Which of the following best describes your current relationship to Bronzeville:</legend>
           <div class="col-sm-10">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
               <label class="form-check-label" for="gridRadios1">
-                First radio
+                I am currently a Bronzeville resident
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
               <label class="form-check-label" for="gridRadios2">
-                Second radio
+                I have a friend or relative that lives here
               </label>
             </div>
-            <div class="form-check disabled">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
               <label class="form-check-label" for="gridRadios3">
-                Third disabled radio
+                I grew up in the neighborhood but moved away
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+              <label class="form-check-label" for="gridRadios4">
+                I work here
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
+              <label class="form-check-label" for="gridRadios5">
+                Other, please explain
               </label>
             </div>
           </div>
         </div>
       </fieldset>
+
+      <!--radio buttons not working goes to both sections-->
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-12 pt-0">Which of the following best describes the tour stop/point of interest / story your are sharing?</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios6" value="option6" checked>
+              <label class="form-check-label" for="gridRadios6">
+                A story about bronzeville history in general
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios7" value="option7">
+              <label class="form-check-label" for="gridRadios7">
+                A story about Bronzeville history related to a specific place or person
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios8" value="option8">
+              <label class="form-check-label" for="gridRadios8">
+                A story about what is currently happening in Bronzeville
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios9" value="option9">
+              <label class="form-check-label" for="gridRadios9">
+                A story about future plans for the neighborhood
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
       <div class="form-group row">
         <div class="col-sm-2">Checkbox</div>
         <div class="col-sm-10">
@@ -93,7 +160,7 @@
         </div>
       </div>
     </form>
-
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
