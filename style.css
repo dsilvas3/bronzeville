@@ -29,7 +29,7 @@ nav{
 
 }
 
-.title-1{
+.title-1, .assest{
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
@@ -125,6 +125,25 @@ hr {
 #map {
     height: 300px;
     /* The height is 400 pixels */
-    width: 50%;
+    /* width: 50%; */
     /* The width is the width of the web page */
+
+
+    /* margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 3%; */
+    max-width: 50%;
+
+  }
+
+
+
+  .container1{
+    position: relative;
+  }
+
+  .stories{
+    float: right;
+    position: relative;
   }
